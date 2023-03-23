@@ -35,7 +35,6 @@ public class UserService {
             userRepository.deleteById(id);
             return true;
         }catch (Exception err){
-            System.out.println(err);
             return false;
         }
     }

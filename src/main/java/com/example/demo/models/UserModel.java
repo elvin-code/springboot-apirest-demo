@@ -27,4 +27,11 @@ public class UserModel {
         this.priority = priority;
     }
 
+    @Override
+    public String toString() {
+    return String.format(
+        "User[id=%d, name='%s', priority='%s']",
+        id, name, priority);
+    }
+
 }
