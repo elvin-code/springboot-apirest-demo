@@ -40,7 +40,7 @@ public class UserController {
         if(ok){
             return "Deleted user with id " + id;
         }else{
-            return "Error, Could not delete user with id " + id;
+            return "Error, user not found with id " + id;
         }
     }
 
